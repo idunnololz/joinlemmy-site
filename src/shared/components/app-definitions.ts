@@ -387,6 +387,27 @@ const NEONMODEM: AppDetails = {
   platforms: [Platform.CLI],
 };
 
+const SUMMIT: AppDetails = {
+  name: "Summit",
+  description:
+    "A Lemmy Client for Android.",
+  link: "https://play.google.com/store/apps/details?id=com.idunnololz.summit",
+  icon: "/static/assets/images/summit_logo.svg",
+  banner: "/static/assets/images/summit_screen.webp",
+  links: [
+    {
+      link: "https://play.google.com/store/apps/details?id=com.idunnololz.summit",
+      icon: "googleplay",
+    },
+    {
+      link: "https://github.com/idunnololz/summit-for-lemmy",
+      icon: "github",
+    },
+  ],
+  sourceType: SourceType.Closed,
+  platforms: [Platform.Android],
+};
+
 export const APP_LIST: AppDetails[] = [
   JERBOA,
   ETERNITY,
@@ -405,4 +426,5 @@ export const APP_LIST: AppDetails[] = [
   NEONMODEM,
   BOOST,
   SYNC,
+  SUMMIT,
 ];
